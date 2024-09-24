@@ -1,0 +1,6 @@
+{
+    "scripts": {
+      "install": "pnpm install --no-frozen-lockfile"
+    }
+}
+  
