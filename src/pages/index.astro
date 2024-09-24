@@ -6,35 +6,33 @@ import Writings from "../components/home/writings.astro";
 import Layout from "../layouts/main.astro";
 ---
 
-<Layout title="Kai">
+<Layout title="Elson">
   <div
     class="relative z-20 w-full max-w-4xl mx-auto mt-16 px-7 md:mt-24 lg:mt-32 xl:px-0"
   >
     <div class="flex flex-col items-center md:flex-row">
       <div class="relative w-full md:w-1/2">
-        <h1
+        <h5
           class="mb-5 text-4xl font-bold leading-tight md:text-4xl lg:text-6xl dark:text-white"
         >
-          Hello, I'm Kai.
-        </h1>
+          Bonjour, Je suis Elson.
+        </h5>
         <p class="mb-6 text-base text-neutral-600 dark:text-neutral-400">
-          I'm a front-end programmer living in Nanjing. <br
+          Je suis un développeur Fullstack vivant à Madagascar. <br
             class="hidden lg:block"
-          />I focus on Web development.
+          />Je me concentre sur développement du web.
         </p>
         <p class="mb-2 font-semibold text-neutral-800 dark:text-neutral-200">
-          I can help you out with:
+          Je peux vous aider avec :
         </p>
         <ul
           class="py-2 space-y-[3px] text-sm list-disc list-inside text-neutral-500 dark:text-neutral-400"
         >
-          <li>Vue.js Development</li>
-          <li>React.js Development</li>
-          <li>Node.js Development</li>
-          <li>Website Design</li>
-          <li>and more...</li>
+          <li>Laravel Développement</li>
+          <li>Symfony Développement</li>
+          <li>React.js Développement</li>
+          <li>React native Mobile</li>
         </ul>
-        <Button text="Follow me on 𝕏" link="https://twitter.com/0xKaiBi" />
       </div>
       <div
         class="relative justify-end hidden w-full mt-10 md:flex md:pl-10 md:w-1/2 md:mt-0 md:translate-y-4 xl:translate-y-0"
@@ -54,7 +52,8 @@ import Layout from "../layouts/main.astro";
           </div>
           <div class="relative z-30 px-10">
             <img
-              src="/assets/images/photo.png"
+              style="object-fit: contain;"
+              src="/assets/images/profile-1.png"
               loading="eager"
               decoding="auto"
               class="relative z-30 w-full aspect-[790/1189] md:max-w-md mx-auto dark:-translate-y-0.5"
@@ -69,8 +68,6 @@ import Layout from "../layouts/main.astro";
     </div>
   </div>
 
-  <Separator text="Check out my projects" />
+  <Separator text="Découvrez mes projets" />
   <Projects />
-  <Separator text="Some of my writing" />
-  <Writings />
 </Layout>

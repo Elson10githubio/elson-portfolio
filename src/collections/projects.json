@@ -1,20 +1,14 @@
 [
 	{
-		"name": "Email.ML",
-		"description": "Minimalist temporary Email.",
-		"image": "/assets/images/projects/email.ml.png",
-		"url": "https://email.ml"
+		"name": "E-commerce",
+		"description": "Petit astuce e-commerce sur React js / Symfony (en développement).",
+		"image": "/assets/images/projects/e-commerce.png",
+		"url": "https://e-commerce-d8q7tebit-elson10githubios-projects.vercel.app/"
 	},
 	{
-		"name": "DNS.Surf",
-		"description": "Querying DNS Resolution Results in Different Regions Worldwide.",
-		"image": "/assets/images/projects/dns.surf.png",
-		"url": "https://dns.surf"
-	},
-	{
-		"name": "HTML.ZONE",
-		"description": "Web Toolbox.",
-		"image": "/assets/images/projects/html.zone.png",
-		"url": "https://html.zone"
+		"name": "IMANI",
+		"description": "Application (partie web) du planning dans religion Laravel",
+		"image": "/assets/images/projects/imani.png",
+		"url": "https://www.imani.randev.ovh/public/"
 	}
 ]
